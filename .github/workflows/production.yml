@@ -1,9 +1,9 @@
-name: CI/CD Pipeline
+name: Main CI/CD Pipeline
 
 on:
   push:
     branches:
-      - develop
+      - main
 
 jobs:
   build-and-test:
