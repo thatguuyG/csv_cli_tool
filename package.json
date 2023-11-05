@@ -1,0 +1,33 @@
+{
+  "name": "csv_reconciler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+      "test": "npx jest"
+  },
+  "repository": {
+      "type": "git",
+      "url": "git+https://github.com/thatguuyG/csv_cli_tool.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+      "url": "https://github.com/thatguuyG/csv_cli_tool/issues"
+  },
+  "homepage": "https://github.com/thatguuyG/csv_cli_tool#readme",
+  "dependencies": {
+      "chalk": "^4.1.2",
+      "commander": "^9.5.0",
+      "conf": "^10.1.2",
+      "fast-csv": "^4.3.6"
+  },
+  "bin": {
+      "csv_reconciler": "./index.js"
+  },
+  "devDependencies": {
+      "jest": "^29.7.0"
+  }
+}
+
